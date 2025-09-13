@@ -1,5 +1,11 @@
 name: Deploy to GitHub Pages
 
+on:
+  push:
+    tags:
+      - 'gh-pages'
+
+
 jobs:
   # Build job
   build:
